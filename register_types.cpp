@@ -2,13 +2,13 @@
 
 #include "register_types.h"
 #include "object_type_db.h"
-#include "osc.h"
+#include "byteswap.h"
 
-void register_oscsender_types() {
+void register_byteswapper_types() {
 
-        ObjectTypeDB::register_type<OSCsender>();
+        ObjectTypeDB::register_type<Byteswap>();
 }
 
-void unregister_oscsender_types() {
+void unregister_byteswapper_types() {
    //nothing to do here
 }
